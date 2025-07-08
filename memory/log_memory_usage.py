@@ -26,3 +26,5 @@ def log_memory_usage(message, logger=None):
             logger.error(error_msg)
         else:
             print(error_msg)
+            
+log_memory_usage("example output")
